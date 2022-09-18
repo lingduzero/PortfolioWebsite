@@ -1,4 +1,4 @@
-# Personal Portfolio Website in React
+# Personal Website in React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -9,7 +9,7 @@ Built using:
 - CSS framework: React-bootstrap
 - CSS animations library: Animate.css
 
-In the /personal-portfolio, you can run:
+In the /personal-website, you can run:
 
 ### `npm start`
 
@@ -33,3 +33,7 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run deploy`
+
+Deploy your website into your github page and create a new branch gh-pages
