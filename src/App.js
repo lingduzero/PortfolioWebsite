@@ -1,9 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects";
+import { NavBar } from "./components/NavBar/NavBar";
+import { Banner } from "./components/Banner/Banner";
+import { Skills } from "./components/Skills/Skills";
+import { Experience } from "./components/Experience/Experience";
 import { Footer } from "./components/Footer/Footer";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
-      <Projects />
+      <Experience />
       <Footer />
     </div>
   );
